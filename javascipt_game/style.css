@@ -1,0 +1,55 @@
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #eee;
+    overflow: hidden;
+  }
+  
+  #game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-image: url("image.jpg");
+    display: flex;
+    background-size: contain;
+    
+  }
+  
+  #game-map {
+    width: 800px;
+    height: 600px;
+    background-color: #222;
+    border: 2px solid #444;
+  }
+  
+  button {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #444;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #start-game {
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #restart {
+    display: none;
+    top: 10px;
+    left: 10px;
+  }
+  
